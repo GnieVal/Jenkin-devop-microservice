@@ -1,7 +1,7 @@
 //Declarative Syntax
 pipeline {
 	agent any 
-	Stages {
+	  stages {
         stage ('Build') {
 		   steps {
 			   echo "Build"
